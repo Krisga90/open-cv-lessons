@@ -6,7 +6,6 @@ video_path = "../video/bikes.mp4"
 cap = cv2.VideoCapture(video_path)
 
 
-
 while True:
     window_name = "Output"
     success, frame = cap.read()
